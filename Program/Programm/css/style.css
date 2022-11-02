@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color:#FFEFD5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+.one, .two {
+    width: 360px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.header, .footer {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #D2B48C;
+}
+
+#contacts {
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 28px;
+    color:  #A0522D;
+    margin-right: 10px;
+}
+
+#search, #name, #tel {
+    width: 180px;
+    padding: 4px 15px;
+    margin: 0 10px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+
+.search-button {
+    padding: 6px 15px;
+    background-color:  #A0522D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-button:hover { background-color: #8B4513; }
+.search-button:active { background-color: #8B4513; }
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.button {
+    margin: auto;
+    background-color: #A0522D;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.button:hover { background-color: #8B4513; }
+.button:active { background-color: #8B4513; }
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:#A0522D; 
+}
+
+h4 {
+    color: grey;
+}
+
+p {
+    color: #8C8E94;
+    margin-top: 5px;
+}
+
+.fa-times {
+    margin-left: auto;
+    margin-right: 15px;
+    color: #727C8A;
+}
+
+.fa-times:hover {color: black;}
+.fa-times:active {color: black;}
+
+.fa-heart-o, .fa-heart {color: #ED4245;}
+.fa-heart-o:hover, .fa-heart:hover {color: #727C8A;}
+.fa-heart-o:active, .fa-heart:active {color: #ED4245;}
+
+
+.title {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.two {
+    display: none;
+    flex-direction: column;
+}
+
+.form {
+    flex-direction: column;
+    display: flex;
+    padding: 30px;
+    height: 400px;
+}
+
+#name, #tel {
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    background-color: #FFEFD5;
+    color: grey;
+    margin-bottom: 15px;
+
+}
+
+label {
+    margin-right: 7px;
+    color:  #D2B48C;
+}
+
+label:hover {color: #727C8A;}
+label:active {color: #8C8E94;}
+
+.wrap {
+    display: flex;
+    align-items: center;
+}
